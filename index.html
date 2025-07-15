@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handcrafted Luxury Yachts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Open Sans', sans-serif; color:#fff; background-color:#001f3f; }
+    h1, h2, h3 { font-family:'Playfair Display', serif; margin-top:0; }
+    .container { max-width:1200px; margin:0 auto; padding:20px; }
+    .hero { position:relative; text-align:center; background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2100&q=80') center/cover no-repeat; height:90vh; display:flex; align-items:center; justify-content:center; }
+    .hero-overlay { background-color:rgba(0,0,0,0.5); position:absolute; top:0; left:0; right:0; bottom:0; }
+    .hero-content { position:relative; z-index:1; }
+    .hero h1 { font-size:3rem; margin-bottom:0.5rem; }
+    .hero p { font-size:1.25rem; margin-bottom:1.5rem; }
+    .btn { background-color:#FFD700; color:#001f3f; padding:15px 30px; text-decoration:none; font-weight:bold; border-radius:3px; display:inline-block; }
+    nav { position:absolute; top:0; width:100%; display:flex; justify-content:space-between; padding:20px; box-sizing:border-box; }
+    nav img { height:40px; }
+    nav .menu { font-size:1.5rem; cursor:pointer; }
+    .story { background-color:#002b55; padding:60px 20px; text-align:left; }
+    .story p { margin-bottom:1rem; }
+    .values { display:flex; flex-wrap:wrap; justify-content:space-between; background-color:#001a33; padding:60px 20px; }
+    .value-item { flex:1 1 45%; margin:10px; text-align:center; }
+    .value-item h3 { color:#FFD700; margin-bottom:10px; }
+    .testimonials { background-color:#002b55; padding:60px 20px; }
+    .testimonial-item { margin-bottom:1.5rem; }
+    .how-it-works { background-color:#001a33; padding:60px 20px; }
+    .steps { display:flex; flex-wrap:wrap; justify-content:space-between; }
+    .step { flex:1 1 22%; margin:10px; text-align:center; }
+    .gallery { background-color:#002b55; padding:60px 20px; text-align:center; }
+    .gallery img { width:30%; margin:1%; border-radius:4px; cursor:pointer; }
+    .faq { background-color:#001a33; padding:60px 20px; }
+    details { margin-bottom:1rem; }
+    summary { font-weight:bold; }
+    .final-cta { background-color:#002b55; padding:80px 20px; text-align:center; }
+    @media (max-width:768px){
+      .values, .steps { flex-direction:column; }
+      .value-item, .step { flex:1 1 100%; }
+      .hero h1 { font-size:2rem; }
+      .hero p { font-size:1rem; }
+      .gallery img { width:100%; margin-bottom:10px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <img src="https://via.placeholder.com/150x40?text=Logo" alt="Logo">
+    <div class="menu">☰</div>
+  </nav>
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>You’re not buying a yacht — you’re choosing a lifestyle.</h1>
+      <p>Experience total freedom, unmatched privacy, and the call of the open sea.</p>
+      <a href="#contact" class="btn">Schedule Your Private Viewing</a>
+    </div>
+  </section>
+
+  <section class="story container">
+    <h2>From Chaos to Calm: A Owner’s Journey</h2>
+    <p>Before owning a handcrafted yacht, our clients often describe a life filled with pressure and endless noise. The city never rests, and neither did they.</p>
+    <p>All of that changed the moment they stepped aboard their vessel. Surrounded by the gentle rhythm of the waves, they found serenity and a sense of ownership over their most precious asset — time.</p>
+    <p>As one captain put it, “The yacht didn’t just give me a way to travel; it gave me space to breathe.” Today, they enjoy destinations once only imagined, creating memories in complete privacy and comfort.</p>
+  </section>
+
+  <section class="values container">
+    <div class="value-item">
+      <h3>Artisan Craftsmanship</h3>
+      <p>Each yacht is handcrafted by master builders, ensuring timeless elegance and unrivaled quality.</p>
+    </div>
+    <div class="value-item">
+      <h3>Ultra-Quiet Sailing</h3>
+      <p>Our innovative designs deliver a serene sailing experience, letting you hear nothing but the sea.</p>
+    </div>
+    <div class="value-item">
+      <h3>Global Range</h3>
+      <p>Explore distant horizons with confidence, knowing your yacht is capable of long-range travel.</p>
+    </div>
+    <div class="value-item">
+      <h3>Full Customization</h3>
+      <p>Create a vessel that reflects your vision, from interior layout to personalized finishes.</p>
+    </div>
+  </section>
+
+  <section class="testimonials container">
+    <h2>What Our Owners Say</h2>
+    <div class="testimonial-item">
+      <p>“This yacht gave me something my penthouse couldn’t — silence.” — J.S., Zurich</p>
+    </div>
+    <div class="testimonial-item">
+      <p>“Owning this yacht transformed our family getaways into grand adventures.” — A.D., Singapore</p>
+    </div>
+  </section>
+
+  <section class="how-it-works container">
+    <h2>The Journey to Ownership</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>Contact Concierge</h3>
+        <p>Reach our dedicated team for a confidential introduction.</p>
+      </div>
+      <div class="step">
+        <h3>Book Private Tour</h3>
+        <p>Explore our yachts in person or virtually at your convenience.</p>
+      </div>
+      <div class="step">
+        <h3>Personalize Configuration</h3>
+        <p>Select finishes, layouts, and features that match your vision.</p>
+      </div>
+      <div class="step">
+        <h3>Secure Delivery</h3>
+        <p>Take ownership of your yacht and begin your new journey.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery container">
+    <h2>The Art of Yachting</h2>
+    <img src="https://images.unsplash.com/photo-1518549234679-1d875b1178eb?auto=format&fit=crop&w=800&q=80" alt="Yacht exterior">
+    <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&q=80" alt="Yacht interior">
+    <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=800&q=80" alt="Yacht lifestyle">
+  </section>
+
+  <section class="faq container">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>Can I fully customize my yacht?</summary>
+      <p>Yes. Our design team works with you to create a bespoke configuration.</p>
+    </details>
+    <details>
+      <summary>What is the typical delivery time?</summary>
+      <p>From design approval to launch, expect 12-18 months depending on specifications.</p>
+    </details>
+    <details>
+      <summary>Do you offer maintenance services?</summary>
+      <p>We provide ongoing maintenance plans to keep your yacht in pristine condition.</p>
+    </details>
+    <details>
+      <summary>Can you ship internationally?</summary>
+      <p>Absolutely. We deliver to ports worldwide and assist with all logistics.</p>
+    </details>
+    <details>
+      <summary>Are financing options available?</summary>
+      <p>Yes, discreet financing solutions are available upon request.</p>
+    </details>
+  </section>
+
+  <section class="final-cta">
+    <h2>Your yacht isn’t a purchase — it’s your next chapter.</h2>
+    <a href="#contact" class="btn">Book a Confidential Consultation</a>
+  </section>
+<section id="contact" class="container" style="padding:60px 20px; background-color:#001f3f; text-align:center;">
+  <h2>Contact Our Concierge</h2>
+  <p>Please email <a href="mailto:concierge@yachts.example">concierge@yachts.example</a> for your private consultation.</p>
+</section>
+
+</body>
+</html>
